@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/yt--dlp-Music-B5EAD7?style=flat-square&logo=youtube&logoColor=white" alt="yt-dlp" />
 </p>
 
-<img src="./assets/cat2.gif" alt="Aesthetic Cat" width="250" style="border-radius: 15px; margin: 20px 0;" />
+<img src="./assets/cat9.gif" alt="Aesthetic Cat" width="250" style="border-radius: 15px; margin: 20px 0;" />
 
 </div>
 
