@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cat1.gif" alt="Happy Cat" width="300" style="border-radius: 15px;" />
+<img src="./assets/cat1.gif?v=1" alt="Happy Cat" width="300" style="border-radius: 15px;" />
 <br/><br/>
 
 <!-- Cute Typing SVG Header -->
@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/yt--dlp-Music-B5EAD7?style=flat-square&logo=youtube&logoColor=white" alt="yt-dlp" />
 </p>
 
-<img src="./assets/cat9.gif" alt="Aesthetic Cat" width="250" style="border-radius: 15px; margin: 20px 0;" />
+<img src="./assets/cat9.gif?v=1" alt="Aesthetic Cat" width="250" style="border-radius: 15px; margin: 20px 0;" />
 
 </div>
 
@@ -30,24 +30,24 @@
 <table width="100%" style="border-collapse: collapse;">
   <tr>
     <td width="50%" align="center">
-      <img src="./assets/cat3.gif" alt="Feature Cat 1" width="100" style="border-radius: 10px;" />
+      <img src="./assets/cat3.gif?v=1" alt="Feature Cat 1" width="100" style="border-radius: 10px;" />
       <h3>🗣️ Advanced Thai TTS</h3>
       <p>High-fidelity Thai text-to-speech using Microsoft Edge Neural voices. Switch between male and female voices on the fly! 😸</p>
     </td>
     <td width="50%" align="center">
-      <img src="./assets/cat4.gif" alt="Feature Cat 2" width="100" style="border-radius: 10px;" />
+      <img src="./assets/cat4.gif?v=1" alt="Feature Cat 2" width="100" style="border-radius: 10px;" />
       <h3>🤖 Local AI Integration</h3>
       <p>Talk to Ollama LLMs directly in your voice channel. The bot processes your questions and reads the answers out loud! ✨</p>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="./assets/cat5.gif" alt="Feature Cat 3" width="100" style="border-radius: 10px;" />
+      <img src="./assets/cat5.gif?v=1" alt="Feature Cat 3" width="100" style="border-radius: 10px;" />
       <h3>🎵 Music Streaming</h3>
       <p>Built-in <code>yt-dlp</code> integration for high-quality YouTube audio. Supports precise start times and durations for perfect playback! 🎶</p>
     </td>
     <td width="50%" align="center">
-      <img src="./assets/cat6.gif" alt="Feature Cat 4" width="100" style="border-radius: 10px;" />
+      <img src="./assets/cat6.gif?v=1" alt="Feature Cat 4" width="100" style="border-radius: 10px;" />
       <h3>📋 Intelligent Audio Queue</h3>
       <p>A unified async queue system that flawlessly handles the transition between AI speech and music streams without overlapping! 🐾</p>
     </td>
@@ -83,7 +83,7 @@ python bot.py
 ```
 
 <div align="center">
-  <img src="./assets/cat7.gif" alt="Window Cat" width="250" style="border-radius: 15px; margin-top: 20px; margin-bottom: 20px;" />
+  <img src="./assets/cat7.gif?v=1" alt="Window Cat" width="250" style="border-radius: 15px; margin-top: 20px; margin-bottom: 20px;" />
 </div>
 
 ---
@@ -104,7 +104,7 @@ python bot.py
 | 🐾 <kbd>!join</kbd> / <kbd>!leave</kbd> | | Manually control the bot's voice channel presence. |
 
   <br/>
-  <img src="./assets/cat8.gif" alt="Command Cat" width="200" style="border-radius: 15px; margin-top: 20px;" />
+  <img src="./assets/cat8.gif?v=1" alt="Command Cat" width="200" style="border-radius: 15px; margin-top: 20px;" />
 
 </div>
 
@@ -130,8 +130,8 @@ graph TD
 
 <br/>
 <div align="center">
-  <img src="./assets/cat9.gif" alt="Architecture Cat" width="250" style="border-radius: 15px; margin-bottom: 20px;" />
+  <img src="./assets/cat9.gif?v=1" alt="Architecture Cat" width="250" style="border-radius: 15px; margin-bottom: 20px;" />
   <br/>
-  <img src="./assets/cat10.gif" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
+  <img src="./assets/cat10.gif?v=1" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
   <p><i>Engineered for performance, built with love. 💖🐾</i></p>
 </div>
