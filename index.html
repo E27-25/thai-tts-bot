@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thai TTS & Music Bot | Premium Discord Experience</title>
+    <title>Thai TTS & Music Bot | Premium Discord Experience 🐾</title>
     
-    <!-- Modern Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     
     <style>
         :root {
-            --bg-color: #030014;
-            --card-bg: rgba(255, 255, 255, 0.03);
-            --card-border: rgba(255, 255, 255, 0.08);
-            --text-main: #f3f4f6;
-            --text-muted: #9ca3af;
-            --accent-1: #a855f7; /* Purple */
-            --accent-2: #ec4899; /* Pink */
-            --accent-3: #3b82f6; /* Blue */
+            --bg-color: #fdf2f8; /* Soft pink background */
+            --card-bg: rgba(255, 255, 255, 0.6);
+            --card-border: rgba(255, 192, 203, 0.8);
+            --text-main: #831843; /* Dark pink/burgundy text */
+            --text-muted: #be185d;
+            --accent-1: #f472b6;
+            --accent-2: #ec4899;
+            --accent-3: #e11d48;
         }
 
         * {
@@ -31,6 +30,8 @@
         body {
             font-family: 'Outfit', sans-serif;
             background-color: var(--bg-color);
+            background-image: radial-gradient(circle at top right, #fbcfe8, transparent 50%),
+                              radial-gradient(circle at bottom left, #fce7f3, transparent 50%);
             color: var(--text-main);
             overflow-x: hidden;
             line-height: 1.6;
@@ -40,26 +41,71 @@
         .ambient-glow {
             position: fixed;
             border-radius: 50%;
-            filter: blur(150px);
-            z-index: -1;
-            animation: pulse-glow 10s ease-in-out infinite alternate;
+            filter: blur(120px);
+            z-index: -2;
+            animation: pulse-glow 8s ease-in-out infinite alternate;
         }
         .glow-1 {
             top: -10%; left: -10%;
             width: 50vw; height: 50vw;
-            background: rgba(168, 85, 247, 0.15);
+            background: rgba(236, 72, 153, 0.15); /* Darker pink glow */
         }
         .glow-2 {
             bottom: -20%; right: -10%;
             width: 60vw; height: 60vw;
-            background: rgba(236, 72, 153, 0.15);
-            animation-delay: -5s;
+            background: rgba(244, 114, 182, 0.2);
+            animation-delay: -4s;
         }
 
         @keyframes pulse-glow {
-            0% { transform: scale(1) translate(0, 0); opacity: 0.8; }
-            100% { transform: scale(1.2) translate(5%, 5%); opacity: 1; }
+            0% { transform: scale(1) translate(0, 0); opacity: 0.7; }
+            100% { transform: scale(1.1) translate(3%, 3%); opacity: 1; }
         }
+
+        /* 🌸 Beautiful Sakura/Sparkle Particles */
+        .particles {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+        }
+        .particle {
+            position: absolute;
+            background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            0% { transform: translateY(-10vh) translateX(0) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(110vh) translateX(100px) rotate(360deg); opacity: 0; }
+        }
+
+        /* 🐱 Floating Cats (More Cats, Smooth Animations) */
+        .floating-cat {
+            position: fixed;
+            font-size: 3rem;
+            z-index: -1;
+            opacity: 0.15;
+            filter: drop-shadow(0 0 15px rgba(244, 114, 182, 0.3));
+            animation: float-rotate 10s ease-in-out infinite;
+        }
+        @keyframes float-rotate {
+            0% { transform: translateY(0px) rotate(-5deg); }
+            50% { transform: translateY(-30px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(-5deg); }
+        }
+        
+        .cat-1 { top: 10%; left: 10%; animation-delay: 0s; }
+        .cat-2 { top: 35%; right: 15%; animation-delay: -2s; font-size: 4.5rem; transform-origin: center; animation-duration: 12s; }
+        .cat-3 { bottom: 20%; left: 12%; animation-delay: -5s; font-size: 3.5rem; animation-duration: 9s; }
+        .cat-4 { top: 70%; right: 20%; animation-delay: -3s; font-size: 2.5rem; }
+        .cat-5 { top: 15%; right: 35%; animation-delay: -1s; font-size: 2rem; animation-duration: 7s; }
+        .cat-6 { bottom: 40%; left: 30%; animation-delay: -6s; font-size: 3rem; opacity: 0.1; }
 
         /* 📦 Layout Containers */
         .container {
@@ -68,7 +114,7 @@
             padding: 2rem;
             display: flex;
             flex-direction: column;
-            gap: 6rem;
+            gap: 5rem;
         }
 
         /* 🦸‍♂️ Hero Section */
@@ -77,25 +123,54 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            margin-top: 4rem;
+            margin-top: 3rem;
             animation: fade-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
             opacity: 0;
             transform: translateY(30px);
         }
 
+        /* Pure CSS Animated Cat Ears on the Badge */
+        .hero-badge-container {
+            position: relative;
+            margin-bottom: 2rem;
+        }
         .hero-badge {
+            position: relative;
+            z-index: 2;
             display: inline-block;
-            padding: 0.5rem 1.5rem;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--card-border);
+            padding: 0.6rem 2rem;
+            background: rgba(255, 255, 255, 0.4);
+            border: 1px solid var(--accent-2);
             border-radius: 100px;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             font-weight: 600;
             letter-spacing: 1px;
             text-transform: uppercase;
-            margin-bottom: 2rem;
             backdrop-filter: blur(10px);
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 30px rgba(244, 114, 182, 0.2);
+            color: var(--text-main);
+        }
+        .css-cat-ear {
+            position: absolute;
+            top: -10px;
+            width: 0; height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 15px solid var(--accent-2);
+            z-index: 1;
+            animation: ear-twitch 4s infinite;
+        }
+        .ear-left { left: 20px; transform: rotate(-20deg); }
+        .ear-right { right: 20px; transform: rotate(20deg); }
+        
+        @keyframes ear-twitch {
+            0%, 90%, 100% { transform: scaleY(1) rotate(-20deg); }
+            95% { transform: scaleY(0.5) rotate(-20deg); }
+        }
+        .ear-right { animation: ear-twitch-r 4s infinite; }
+        @keyframes ear-twitch-r {
+            0%, 85%, 100% { transform: scaleY(1) rotate(20deg); }
+            90% { transform: scaleY(0.5) rotate(20deg); }
         }
 
         .gradient-text {
@@ -112,7 +187,7 @@
         }
 
         h1 {
-            font-size: clamp(3rem, 8vw, 5.5rem);
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
             font-weight: 800;
             line-height: 1.1;
             margin-bottom: 1.5rem;
@@ -122,7 +197,7 @@
         .hero p {
             font-size: clamp(1.1rem, 2vw, 1.3rem);
             color: var(--text-muted);
-            max-width: 600px;
+            max-width: 650px;
             margin-bottom: 3rem;
         }
 
@@ -137,7 +212,7 @@
             background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
             border: 1px solid var(--card-border);
             backdrop-filter: blur(20px);
-            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
             animation: float 6s ease-in-out infinite;
         }
 
@@ -185,8 +260,8 @@
         .bento-card:hover {
             transform: translateY(-5px) scale(1.02);
             background: rgba(255, 255, 255, 0.05);
-            border-color: rgba(255, 255, 255, 0.15);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border-color: rgba(244, 114, 182, 0.4);
+            box-shadow: 0 20px 40px rgba(244, 114, 182, 0.15);
         }
 
         /* Gradient lines on cards */
@@ -204,21 +279,25 @@
             opacity: 1;
         }
 
-        /* Spanning cards */
         .col-span-2 { grid-column: span 2; }
-        .row-span-2 { grid-row: span 2; }
-
+        
         .bento-icon {
             font-size: 2.5rem;
             margin-bottom: 1.5rem;
             display: inline-block;
+            animation: bounce 3s infinite alternate;
+        }
+        
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
         }
 
         .bento-title {
             font-size: 1.5rem;
             font-weight: 600;
             margin-bottom: 1rem;
-            color: #fff;
+            color: var(--text-main);
         }
 
         .bento-desc {
@@ -226,55 +305,22 @@
             font-size: 1.05rem;
         }
 
-        /* 📱 Responsive */
         @media (max-width: 900px) {
-            .bento-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+            .bento-grid { grid-template-columns: repeat(2, 1fr); }
             .col-span-2 { grid-column: span 2; }
         }
-
         @media (max-width: 600px) {
-            .bento-grid {
-                grid-template-columns: 1fr;
-            }
+            .bento-grid { grid-template-columns: 1fr; }
             .col-span-2 { grid-column: span 1; }
         }
 
         /* Footer */
         .footer {
             text-align: center;
-            padding-bottom: 4rem;
+            padding-bottom: 3rem;
             opacity: 0;
             animation: fade-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards 0.6s;
         }
-        
-        .footer img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            margin-bottom: 1rem;
-            border: 2px solid var(--accent-2);
-            box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
-            animation: float 4s ease-in-out infinite;
-        }
-
-        /* 🐱 Floating Cats */
-        .floating-cat {
-            position: fixed;
-            font-size: 3rem;
-            z-index: -1;
-            opacity: 0.15;
-            filter: drop-shadow(0 0 10px rgba(255,255,255,0.2));
-            animation: float 8s ease-in-out infinite;
-        }
-        .cat-1 { top: 15%; left: 8%; animation-delay: 0s; }
-        .cat-2 { top: 45%; right: 12%; animation-delay: -2s; font-size: 4rem; transform: scaleX(-1); }
-        .cat-3 { bottom: 25%; left: 10%; animation-delay: -4s; font-size: 3.5rem; }
-        .cat-4 { top: 75%; right: 15%; animation-delay: -1s; font-size: 2.5rem; }
-        .cat-5 { top: 5%; right: 30%; animation-delay: -3s; font-size: 2rem; }
-
     </style>
 </head>
 <body>
@@ -283,74 +329,99 @@
     <div class="ambient-glow glow-1"></div>
     <div class="ambient-glow glow-2"></div>
 
-    <!-- Floating Background Cats -->
+    <!-- Beautiful Particle System -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Floating Background Cats (Mature, Sleek) -->
     <div class="floating-cat cat-1">🐱</div>
     <div class="floating-cat cat-2">🐈</div>
     <div class="floating-cat cat-3">🐾</div>
     <div class="floating-cat cat-4">🐈‍⬛</div>
-    <div class="floating-cat cat-5">😸</div>
+    <div class="floating-cat cat-5">🐱</div>
+    <div class="floating-cat cat-6">🐾</div>
 
     <div class="container">
         
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-badge">Now with AI Chat & YouTube Music</div>
+            <div class="hero-badge-container">
+                <div class="css-cat-ear ear-left"></div>
+                <div class="css-cat-ear ear-right"></div>
+                <div class="hero-badge">🐾 Now with AI Chat & YouTube Music 🐾</div>
+            </div>
             <h1>The Ultimate Discord <br><span class="gradient-text">Audio Experience</span></h1>
             <p>Elevate your server with ultra-realistic Thai Text-to-Speech, local Ollama AI integration, and seamless YouTube music streaming in one beautiful package.</p>
             
             <div class="media-showcase">
-                <!-- High Quality Aesthetic Image -->
-                <img src="https://media.giphy.com/media/108XxyF1K3a9Vu/giphy.gif" alt="Aesthetic Anime Anime Girl">
+                <!-- High Quality Aesthetic Lofi Cat / Girl Animation (Not a baby gif) -->
+                <img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Aesthetic Lofi Cat">
             </div>
         </header>
 
         <!-- Bento Box Features Grid -->
         <section class="bento-grid">
-            
-            <!-- Large Card -->
             <div class="bento-card col-span-2">
                 <div>
-                    <span class="bento-icon">🤖</span>
+                    <span class="bento-icon">🤖🐾</span>
                     <h2 class="bento-title">Local AI Intelligence</h2>
                     <p class="bento-desc">Ask anything in the text channel and listen as the bot queries your local Ollama LLM and speaks the answer aloud. Fast, private, and incredibly powerful.</p>
                 </div>
             </div>
-
-            <!-- Standard Card -->
             <div class="bento-card">
                 <div>
-                    <span class="bento-icon">🗣️</span>
+                    <span class="bento-icon">🗣️✨</span>
                     <h2 class="bento-title">Neural Thai TTS</h2>
                     <p class="bento-desc">Powered by Microsoft Edge TTS. Choose between natural-sounding male and female Thai voices.</p>
                 </div>
             </div>
-
-            <!-- Standard Card -->
             <div class="bento-card">
                 <div>
-                    <span class="bento-icon">🎵</span>
+                    <span class="bento-icon">🎵🎧</span>
                     <h2 class="bento-title">Lossless Streaming</h2>
                     <p class="bento-desc">Direct yt-dlp integration ensures pristine audio quality from YouTube with zero buffering.</p>
                 </div>
             </div>
-
-            <!-- Large Card -->
             <div class="bento-card col-span-2">
                 <div>
-                    <span class="bento-icon">⚡</span>
+                    <span class="bento-icon">⚡🐈‍⬛</span>
                     <h2 class="bento-title">Smart Async Queue</h2>
                     <p class="bento-desc">Our custom-built asynchronous queue engine flawlessly handles the transition between AI speech and music streams without overlapping. Skip, stop, and queue with zero latency.</p>
                 </div>
             </div>
-
         </section>
 
         <!-- Footer -->
         <footer class="footer">
-            <p style="color: var(--text-muted); font-size: 1.2rem;">🐾 Engineered for performance, built with passion. 🐾</p>
+            <p style="color: var(--text-muted); font-size: 1.2rem; letter-spacing: 1px;">
+                <span style="color: var(--accent-2);">🐾</span> Engineered for performance, built with passion <span style="color: var(--accent-2);">🐾</span>
+            </p>
         </footer>
 
     </div>
 
+    <!-- Script to generate beautiful falling particles -->
+    <script>
+        const particleContainer = document.getElementById('particles');
+        const particleCount = 30;
+        
+        for (let i = 0; i < particleCount; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            
+            // Random properties for each particle
+            const size = Math.random() * 8 + 3; // 3px to 11px
+            const left = Math.random() * 100; // 0% to 100vw
+            const duration = Math.random() * 15 + 10; // 10s to 25s
+            const delay = Math.random() * -20; // Start at different times
+            
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${left}vw`;
+            particle.style.animationDuration = `${duration}s`;
+            particle.style.animationDelay = `${delay}s`;
+            
+            particleContainer.appendChild(particle);
+        }
+    </script>
 </body>
 </html>
