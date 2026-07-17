@@ -50,7 +50,9 @@
 
 ---
 
-## 🚀 Quick Setup 🧶
+<details>
+<summary><h2>🚀 Quick Setup 🧶</h2></summary>
+<br>
 
 ### Prerequisites
 1. **Python 3.10+** 🐍
@@ -75,6 +77,7 @@ cp .env.example .env
 ```bash
 python bot.py
 ```
+</details>
 
 ---
 
@@ -84,20 +87,22 @@ python bot.py
 
 | Command | Arguments | Description |
 |:---|:---|:---|
-| 🐾 `!speak` / `!s` | `<text>` | Converts Thai text to neural speech in the current voice channel. |
-| 🐾 `!chat` / `!c` | `<query>` | Queries Ollama and reads the response aloud. |
-| 🐾 `!play` / `!p` | `<url>` `[start]` `[duration]` | Streams YouTube audio. (e.g., `!play เพลงแมว 01:30 30`) |
-| 🐾 `!skip` | | Skips the currently playing audio stream. |
-| 🐾 `!queue` / `!q` | | Displays the current pending audio queue. |
-| 🐾 `!voice` / `!v` | `[voice_name]` | Changes the active TTS voice. Leave blank to view options. |
-| 🐾 `!stop` | | Immediately halts playback and clears the entire queue. |
-| 🐾 `!join` / `!leave` | | Manually control the bot's voice channel presence. |
+| 🐾 <kbd>!speak</kbd> / <kbd>!s</kbd> | `<text>` | Converts Thai text to neural speech in the current voice channel. |
+| 🐾 <kbd>!chat</kbd> / <kbd>!c</kbd> | `<query>` | Queries Ollama and reads the response aloud. |
+| 🐾 <kbd>!play</kbd> / <kbd>!p</kbd> | `<url>` `[start]` `[duration]` | Streams YouTube audio. (e.g., `!play เพลงแมว 01:30 30`) |
+| 🐾 <kbd>!skip</kbd> | | Skips the currently playing audio stream. |
+| 🐾 <kbd>!queue</kbd> / <kbd>!q</kbd> | | Displays the current pending audio queue. |
+| 🐾 <kbd>!voice</kbd> / <kbd>!v</kbd> | `[voice_name]` | Changes the active TTS voice. Leave blank to view options. |
+| 🐾 <kbd>!stop</kbd> | | Immediately halts playback and clears the entire queue. |
+| 🐾 <kbd>!join</kbd> / <kbd>!leave</kbd> | | Manually control the bot's voice channel presence. |
 
 </div>
 
 ---
 
-## 🏗️ Architecture 🧶
+<details>
+<summary><h2>🏗️ Architecture 🧶</h2></summary>
+<br>
 
 ```mermaid
 graph TD
@@ -114,6 +119,7 @@ graph TD
     style Discord fill:#5865F2,stroke:#fff,stroke-width:2px,color:#fff
     style Queue fill:#333,stroke:#fff,stroke-width:2px,color:#fff
 ```
+</details>
 
 <br/>
 <div align="center">
