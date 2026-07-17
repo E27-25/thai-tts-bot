@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Aesthetic Pixel Cat" width="400" style="border-radius: 15px;" />
+<img src="https://media.tenor.com/lfDATg4Bhc0AAAAC/happy-cat.gif" alt="Happy Cat" width="300" style="border-radius: 15px;" />
 <br/><br/>
 
 <!-- Cute Typing SVG Header -->
