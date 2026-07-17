@@ -19,6 +19,8 @@
   <img src="https://img.shields.io/badge/yt--dlp-Music-B5EAD7?style=flat-square&logo=youtube&logoColor=white" alt="yt-dlp" />
 </p>
 
+<img src="https://media.tenor.com/lZ6OQk3V0tQAAAAC/aesthetic-cat.gif" alt="Aesthetic Cat" width="250" style="border-radius: 15px; margin: 20px 0;" />
+
 </div>
 
 ---
@@ -28,20 +30,24 @@
 <table width="100%" style="border-collapse: collapse;">
   <tr>
     <td width="50%" align="center">
+      <img src="https://media.tenor.com/W2O-L0tXWb4AAAAC/pixel-cat.gif" alt="Feature Cat 1" width="100" style="border-radius: 10px;" />
       <h3>🗣️ Advanced Thai TTS</h3>
       <p>High-fidelity Thai text-to-speech using Microsoft Edge Neural voices. Switch between male and female voices on the fly! 😸</p>
     </td>
     <td width="50%" align="center">
+      <img src="https://media.tenor.com/13_RSEKz5dEAAAAC/cat-pixel.gif" alt="Feature Cat 2" width="100" style="border-radius: 10px;" />
       <h3>🤖 Local AI Integration</h3>
       <p>Talk to Ollama LLMs directly in your voice channel. The bot processes your questions and reads the answers out loud! ✨</p>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
+      <img src="https://media.tenor.com/3T9jHhW9yTEAAAAC/cat-pixel.gif" alt="Feature Cat 3" width="100" style="border-radius: 10px;" />
       <h3>🎵 Music Streaming</h3>
       <p>Built-in <code>yt-dlp</code> integration for high-quality YouTube audio. Supports precise start times and durations for perfect playback! 🎶</p>
     </td>
     <td width="50%" align="center">
+      <img src="https://media.tenor.com/2m65s7T-e0UAAAAC/pixel-cat.gif" alt="Feature Cat 4" width="100" style="border-radius: 10px;" />
       <h3>📋 Intelligent Audio Queue</h3>
       <p>A unified async queue system that flawlessly handles the transition between AI speech and music streams without overlapping! 🐾</p>
     </td>
@@ -97,6 +103,9 @@ python bot.py
 | 🐾 <kbd>!stop</kbd> | | Immediately halts playback and clears the entire queue. |
 | 🐾 <kbd>!join</kbd> / <kbd>!leave</kbd> | | Manually control the bot's voice channel presence. |
 
+  <br/>
+  <img src="https://media.tenor.com/1Xz86h2t8qUAAAAC/cat-pixel.gif" alt="Command Cat" width="200" style="border-radius: 15px; margin-top: 20px;" />
+
 </div>
 
 ---
@@ -121,6 +130,8 @@ graph TD
 
 <br/>
 <div align="center">
+  <img src="https://media.tenor.com/7v3n4T7k9mYAAAAC/pixel-cat.gif" alt="Architecture Cat" width="250" style="border-radius: 15px; margin-bottom: 20px;" />
+  <br/>
   <img src="https://media.tenor.com/T0b3i0a6L6cAAAAC/cat-cute.gif" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
   <p><i>Engineered for performance, built with love. 💖🐾</i></p>
 </div>
