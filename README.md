@@ -4,7 +4,7 @@
 <br/><br/>
 
 <!-- Cute Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=40&pause=1000&color=F472B6&center=true&vCenter=true&width=800&lines=Thai+TTS+%26+Music+Bot+🐾;Meow!+Powered+by+AI+😸;Seamless+YouTube+Music+🎶;Your+Cute+Discord+Helper+🌸" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=40&pause=1000&color=F472B6&center=true&vCenter=true&width=800&lines=Thai+TTS+and+Music+Bot;Powered+by+Ollama+AI;Seamless+YouTube+Music;Your+Cute+Discord+Helper" alt="Typing Animation" />
 
 <p align="center">
   <b>A smart, ultra-cute Discord bot combining AI Chat, Thai Text-to-Speech, and Music Streaming! 🐾✨</b>
