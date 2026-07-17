@@ -76,6 +76,10 @@ cp .env.example .env
 python bot.py
 ```
 
+<div align="center">
+  <img src="https://media.giphy.com/media/JcZboAaqIxyxO/giphy.gif" alt="Window Cat" width="250" style="border-radius: 15px; margin-top: 20px; margin-bottom: 20px;" />
+</div>
+
 ---
 
 ## 🎀 Command Reference 🐈
@@ -117,5 +121,6 @@ graph TD
 
 <br/>
 <div align="center">
+  <img src="https://media.giphy.com/media/8vQSQ3cNXuDba/giphy.gif" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
   <p><i>Engineered for performance, built with love. 💖🐾</i></p>
 </div>
