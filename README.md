@@ -1,141 +1,118 @@
 <div align="center">
-  <img src="https://media.giphy.com/media/L0qTl8hl84QwGSt0ju/giphy.gif" alt="Aesthetic Anime Banner" width="100%" style="border-radius: 15px;"/>
 
-  <br/><br/>
+<!-- Animated Typing SVG Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=45&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=Thai+TTS+%26+Music+Bot;Powered+by+Ollama+AI;Seamless+YouTube+Music;Modern+Discord+Integration" alt="Typing Animation" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=36&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=Thai+TTS+%26+Music+Bot+🎵;Speak+Thai+Naturally+🗣️;Stream+YouTube+Music+🎧;Chat+with+Ollama+AI+🤖" alt="Typing SVG" />
+<p align="center">
+  <b>A modern, high-performance Discord bot combining AI Chat, Thai Text-to-Speech, and Music Streaming.</b>
+</p>
 
-  <p align="center">
-    <i>A magical Discord bot that brings your server to life with beautiful Thai voices, AI intelligence, and endless music.</i>
-  </p>
-
-  <img src="https://github.com/andreasbm/readme/blob/master/assets/lines/rainbow.gif?raw=true" width="100%" />
-
-  [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-  [![Discord.py](https://img.shields.io/badge/Discord.py-2.4+-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordpy.readthedocs.io/)
-  [![Edge-TTS](https://img.shields.io/badge/Edge--TTS-Voice-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://github.com/rany2/edge-tts)
-  [![Ollama](https://img.shields.io/badge/Ollama-AI-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai)
+<!-- Clean Tech Stack Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Discord.py-2.4+-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord.py" />
+  <img src="https://img.shields.io/badge/Edge--TTS-Voice-0078D4?style=flat-square&logo=microsoft&logoColor=white" alt="Edge-TTS" />
+  <img src="https://img.shields.io/badge/Ollama-AI-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/yt--dlp-Stream-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="yt-dlp" />
+</p>
 
 </div>
 
-<br/>
+---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5iaTBmMG42ZHpjd2EydnEwd3Y5dWt1M2UwbG4zZnJteDFyNDRkeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/4ilFRqgbzbx4c/giphy.gif" alt="Anime Girl Listening to Music" width="300" style="border-radius: 10px; margin-right: 20px;"/>
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHBpMnR0ZGJtNzYwcmg0c3MxaGRxaGRrMm9yaDZxcHB0MW1rNzRydyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/fA2ZNQ9p5G4p2/giphy.gif" alt="Anime Dancing" width="300" style="border-radius: 10px;"/>
-</div>
+## ⚡ Core Features
 
-<br/>
-
-## ✨ 🌟 Features
-
-<table>
+<table width="100%" style="border-collapse: collapse;">
   <tr>
-    <td align="center"><img src="https://media.giphy.com/media/26AHG5KGFxSkUWw1i/giphy.gif" width="50"/><br/><b>Thai Text-to-Speech</b></td>
-    <td>ใช้คำสั่ง <b><code>!speak</code></b> เพื่อให้บอทอ่านข้อความภาษาไทยด้วยเสียงที่สมจริง เลือกน้ำเสียงได้ดั่งใจ (Premwadee, Niwat, Achara)</td>
+    <td width="50%" align="center">
+      <h3>🗣️ Advanced Thai TTS</h3>
+      <p>High-fidelity Thai text-to-speech utilizing Microsoft Edge Neural voices. Switch seamlessly between male and female voices on the fly.</p>
+    </td>
+    <td width="50%" align="center">
+      <h3>🤖 Local AI Integration</h3>
+      <p>Communicate with Ollama LLMs directly in your voice channel. The bot processes your questions and reads the AI's responses out loud.</p>
+    </td>
   </tr>
   <tr>
-    <td align="center"><img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="50"/><br/><b>AI Chat Integration</b></td>
-    <td>ใช้คำสั่ง <b><code>!chat</code></b> เพื่อพูดคุยกับ AI อัจฉริยะ (Ollama) แล้วให้บอทอ่านคำตอบให้ทุกคนในห้องฟังทันที!</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="50"/><br/><b>YouTube Music</b></td>
-    <td>ใช้คำสั่ง <b><code>!play</code></b> เพื่อสตรีมเพลงโปรดจาก YouTube พร้อมความสามารถในการตัดต่อเวลาเริ่มและหยุดได้แบบเป๊ะๆ</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://media.giphy.com/media/l41lFw057lAJQMwg0/giphy.gif" width="50"/><br/><b>Smart Queue</b></td>
-    <td>คิวเสียงอัจฉริยะที่ผสมผสาน <b>เสียงพูด</b> และ <b>เสียงเพลง</b> เข้าด้วยกันอย่างลื่นไหล เล่นต่อกันไม่มีสะดุด 100%</td>
+    <td width="50%" align="center">
+      <h3>🎵 Music Streaming</h3>
+      <p>Built-in <code>yt-dlp</code> integration for high-quality YouTube audio. Supports precise start times and durations for perfect playback.</p>
+    </td>
+    <td width="50%" align="center">
+      <h3>📋 Intelligent Audio Queue</h3>
+      <p>A unified async queue system that flawlessly handles the transition between AI speech and music streams without overlapping.</p>
+    </td>
   </tr>
 </table>
 
-<img src="https://github.com/andreasbm/readme/blob/master/assets/lines/rainbow.gif?raw=true" width="100%" />
+---
 
-## 📦 🛠️ Prerequisites
+## 🚀 Quick Setup
 
-ก่อนเริ่มใช้งาน กรุณาติดตั้งโปรแกรมเหล่านี้ในเครื่องของคุณ:
+### Prerequisites
+1. **Python 3.10+**
+2. **FFmpeg** (`brew install ffmpeg`)
+3. **Ollama** (`brew install ollama` and `ollama pull llama3.2`)
 
-> **1. Python 3.10+**  
-> **2. FFmpeg** `brew install ffmpeg` *(จำเป็นสำหรับการสตรีมเสียง)*  
-> **3. Ollama** `brew install ollama` *(สำหรับฟีเจอร์ AI Chat)*  
-
-<br/>
-
-## 🚀 🎮 Setup & Installation
+### Installation
 
 ```bash
-# 1. Clone the magic ✨
 git clone https://github.com/E27-25/thai-tts-bot.git
 cd thai-tts-bot
 
-# 2. Create the environment 🌱
 python3 -m venv venv
 source venv/bin/activate
-
-# 3. Install dependencies 📦
 pip install -r requirements.txt
-```
 
-#### 🔑 การตั้งค่าบอท
-ก็อปปี้ไฟล์ `.env.example` เป็น `.env` แล้วใส่ `DISCORD_TOKEN` ของคุณ
-```bash
 cp .env.example .env
+# Edit .env and add your DISCORD_TOKEN
 ```
 
-#### ▶️ รันบอท (Ignition!)
+### Execution
 ```bash
 python bot.py
 ```
 
-<img src="https://github.com/andreasbm/readme/blob/master/assets/lines/rainbow.gif?raw=true" width="100%" />
+---
 
-## 📖 🪄 Commands (คัมภีร์คำสั่ง)
+## 💻 Command Reference
 
 <div align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" alt="Magic Book" width="200" style="border-radius: 10px;"/>
+
+| Command | Arguments | Description |
+|:---|:---|:---|
+| `!speak` / `!s` | `<text>` | Converts Thai text to neural speech in the current voice channel. |
+| `!chat` / `!c` | `<query>` | Queries Ollama and reads the response aloud. |
+| `!play` / `!p` | `<url>` `[start]` `[duration]` | Streams YouTube audio. (e.g., `!play Never gonna give you up 01:30 30`) |
+| `!skip` | | Skips the currently playing audio stream. |
+| `!queue` / `!q` | | Displays the current pending audio queue. |
+| `!voice` / `!v` | `[voice_name]` | Changes the active TTS voice. Leave blank to view options. |
+| `!stop` | | Immediately halts playback and clears the entire queue. |
+| `!join` / `!leave` | | Manually control the bot's voice channel presence. |
+
 </div>
-<br/>
 
-| คำสั่ง (Command) | คำอธิบาย (Description) |
-|:---:|:---|
-| 🔊 `!speak <ข้อความ>` | พิมพ์ข้อความแล้วบอทจะอ่านออกเสียงให้ฟัง |
-| 🤖 `!chat <คำถาม>` | คุยกับ AI แล้วบอทจะอ่านคำตอบ |
-| 🎵 `!play <เพลง/URL>` | ค้นหาและเล่นเพลงจาก YouTube (เช่น `!play เพลงรัก 01:30 30`) |
-| ⏭️ `!skip` | ข้ามเพลงหรือเสียงที่กำลังเล่นอยู่ |
-| 📋 `!queue` | ดูคิวเสียงและเพลงทั้งหมด |
-| 🎙️ `!voice <ชื่อ>` | เปลี่ยนเสียง (เช่น `!voice niwat` หรือใช้ `!voice` เพื่อดูรายชื่อ) |
-| 🚪 `!join` / `!leave` | เรียกบอทเข้าห้อง / เตะบอทออกจากห้องเสียง |
-| 🛑 `!stop` | หยุดเล่นเสียงและล้างคิวทิ้งทั้งหมด |
+---
 
-**✨ คีย์ลัดสุดไว:** `!s` (พูด), `!c` (ถาม), `!v` (เปลี่ยนเสียง), `!p` (เล่นเพลง), `!q` (ดูคิว)
+## 🏗️ Architecture
 
-<img src="https://github.com/andreasbm/readme/blob/master/assets/lines/rainbow.gif?raw=true" width="100%" />
-
-## 🏗️ 🗺️ System Architecture
-
-```text
-User: !speak สวัสดี     User: !chat สบายดีไหม        User: !play เพลงรัก
-       │                       │                             │
-       │                       ▼                             ▼
-       │                 ┌──────────┐                  ┌──────────┐
-       │                 │  Ollama  │                  │  yt-dlp  │
-       │                 │  (LLM)   │                  │ (YouTube)│
-       │                 └────┬─────┘                  └────┬─────┘
-       │                      │ Thai text                   │ Stream URL
-       ▼                      ▼                             │
-  ┌─────────────────────────────────┐                       │
-  │          edge-tts               │                       │
-  │  Thai text → MP3 audio         │                       │
-  └──────────────┬──────────────────┘                       │
-                 │                                          │
-                 ▼                                          ▼
-  ┌───────────────────────────────────────────────────────────────┐
-  │                   Discord Voice Channel                       │
-  │                   (FFmpeg audio stream)                       │
-  │              [ TTS Audio & YouTube Music Queue ]              │
-  └───────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    User([User Commands]) -->|!speak / !chat| NLP[Ollama AI / TTS Engine]
+    User -->|!play| YTDL[yt-dlp Streamer]
+    
+    NLP --> Queue[(Async Audio Queue)]
+    YTDL --> Queue
+    
+    Queue --> FFmpeg[FFmpeg Processor]
+    FFmpeg --> Discord((Discord Voice Channel))
+    
+    style User fill:#2F80ED,stroke:#fff,stroke-width:2px,color:#fff
+    style Discord fill:#5865F2,stroke:#fff,stroke-width:2px,color:#fff
+    style Queue fill:#333,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
+<br/>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGtpb21sdXhwNTdsYnpqcXkxY3Nqa2Q0anlxb3pjc3Y2aWhwaDlnNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l4FGpP4lxGGgK5CBW/giphy.gif" alt="Dancing Anime" width="300" style="border-radius: 15px;"/>
-  <p><h3>Enjoy your magical audio experience! 💖</h3></p>
+  <p><i>Engineered for performance and seamless audio delivery.</i></p>
 </div>
