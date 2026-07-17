@@ -105,14 +105,14 @@ python bot.py
 
 ```mermaid
 graph TD
-    User([User Commands 🐾]) -->|!speak / !chat| NLP[Ollama AI / TTS Engine 😸]
-    User -->|!play| YTDL[yt-dlp Streamer 🎶]
+    User([User Commands]) -->|speak / chat| NLP[Ollama AI / TTS Engine]
+    User -->|play| YTDL[yt-dlp Streamer]
     
-    NLP --> Queue[(Async Audio Queue 📦)]
+    NLP --> Queue[(Async Audio Queue)]
     YTDL --> Queue
     
-    Queue --> FFmpeg[FFmpeg Processor ⚙️]
-    FFmpeg --> Discord((Discord Voice Channel 🌸))
+    Queue --> FFmpeg[FFmpeg Processor]
+    FFmpeg --> Discord((Discord Voice Channel))
     
     style User fill:#F472B6,stroke:#fff,stroke-width:2px,color:#fff
     style Discord fill:#5865F2,stroke:#fff,stroke-width:2px,color:#fff
