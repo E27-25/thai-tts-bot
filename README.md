@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://media.giphy.com/media/Jk4ZT6R0OEUoM/giphy.gif" alt="Bongo Cat" width="120" />
+<img src="https://media.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif" alt="Aesthetic Pixel Cat" width="400" style="border-radius: 15px;" />
+<br/><br/>
 
 <!-- Cute Typing SVG Header -->
 <img src="https://readme-typing-svg.demolab.com?font=Nunito&weight=800&size=40&pause=1000&color=F472B6&center=true&vCenter=true&width=800&lines=Thai+TTS+%26+Music+Bot+🐾;Meow!+Powered+by+AI+😸;Seamless+YouTube+Music+🎶;Your+Cute+Discord+Helper+🌸" alt="Typing Animation" />
@@ -116,6 +117,5 @@ graph TD
 
 <br/>
 <div align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZiaDIxeHd4bHRyYWN1cXZuMTBya3VpeGZpZTcxMG9oYXhucXZmdSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cute Anime Cat" width="200" style="border-radius: 15px;" />
   <p><i>Engineered for performance, built with love. 💖🐾</i></p>
 </div>
