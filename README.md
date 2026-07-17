@@ -50,9 +50,7 @@
 
 ---
 
-<details>
-<summary><h2>🚀 Quick Setup 🧶</h2></summary>
-<br>
+## 🚀 Quick Setup 🧶
 
 ### Prerequisites
 1. **Python 3.10+** 🐍
@@ -77,7 +75,6 @@ cp .env.example .env
 ```bash
 python bot.py
 ```
-</details>
 
 ---
 
@@ -100,9 +97,7 @@ python bot.py
 
 ---
 
-<details>
-<summary><h2>🏗️ Architecture 🧶</h2></summary>
-<br>
+## 🏗️ Architecture 🧶
 
 ```mermaid
 graph TD
@@ -119,7 +114,6 @@ graph TD
     style Discord fill:#5865F2,stroke:#fff,stroke-width:2px,color:#fff
     style Queue fill:#333,stroke:#fff,stroke-width:2px,color:#fff
 ```
-</details>
 
 <br/>
 <div align="center">
