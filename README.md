@@ -77,7 +77,7 @@ python bot.py
 ```
 
 <div align="center">
-  <img src="https://media.giphy.com/media/JcZboAaqIxyxO/giphy.gif" alt="Window Cat" width="250" style="border-radius: 15px; margin-top: 20px; margin-bottom: 20px;" />
+  <img src="https://media.tenor.com/bK1qz1-U8xUAAAAC/pixel-cat.gif" alt="Window Cat" width="250" style="border-radius: 15px; margin-top: 20px; margin-bottom: 20px;" />
 </div>
 
 ---
@@ -121,6 +121,6 @@ graph TD
 
 <br/>
 <div align="center">
-  <img src="https://media.giphy.com/media/8vQSQ3cNXuDba/giphy.gif" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
+  <img src="https://media.tenor.com/T0b3i0a6L6cAAAAC/cat-cute.gif" alt="Coffee Cat" width="150" style="border-radius: 15px;" />
   <p><i>Engineered for performance, built with love. 💖🐾</i></p>
 </div>
