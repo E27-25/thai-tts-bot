@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cat2_v2.gif" alt="Happy Cat" width="300" style="border-radius: 15px;" />
+<img src="./assets/cat1_v2.gif" alt="Happy Cat" width="300" style="border-radius: 15px;" />
 <br/><br/>
 
 <!-- Cute Typing SVG Header -->
