@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="https://media.giphy.com/media/Jk4ZT6R0OEUoM/giphy.gif" alt="Bongo Cat" width="150" />
+
 <!-- Animated Typing SVG Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=45&pause=1000&color=2F80ED&center=true&vCenter=true&width=800&lines=Thai+TTS+%26+Music+Bot;Powered+by+Ollama+AI;Seamless+YouTube+Music;Modern+Discord+Integration" alt="Typing Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&pause=1000&color=F772CA&center=true&vCenter=true&width=800&lines=Thai+TTS+%26+Music+Bot+🌸;Powered+by+Ollama+AI+🤖;Seamless+YouTube+Music+🎶;Your+Cute+Discord+Helper+✨" alt="Typing Animation" />
 
 <p align="center">
-  <b>A modern, high-performance Discord bot combining AI Chat, Thai Text-to-Speech, and Music Streaming.</b>
+  <b>A smart, high-performance Discord bot combining AI Chat, Thai Text-to-Speech, and Music Streaming in one cute package! 🐾</b>
 </p>
 
 <!-- Clean Tech Stack Badges -->
@@ -16,11 +18,11 @@
   <img src="https://img.shields.io/badge/yt--dlp-Stream-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="yt-dlp" />
 </p>
 
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/nyan-cat.gif" width="100%" />
+
 </div>
 
----
-
-## ⚡ Core Features
+## 🌟 Core Features
 
 <table width="100%" style="border-collapse: collapse;">
   <tr>
@@ -45,7 +47,9 @@
   </tr>
 </table>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.gif" width="100%" />
+</div>
 
 ## 🚀 Quick Setup
 
@@ -73,9 +77,11 @@ cp .env.example .env
 python bot.py
 ```
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.gif" width="100%" />
+</div>
 
-## 💻 Command Reference
+## 🎀 Command Reference
 
 <div align="center">
 
@@ -92,7 +98,9 @@ python bot.py
 
 </div>
 
----
+<div align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/cloudy.gif" width="100%" />
+</div>
 
 ## 🏗️ Architecture
 
@@ -107,12 +115,13 @@ graph TD
     Queue --> FFmpeg[FFmpeg Processor]
     FFmpeg --> Discord((Discord Voice Channel))
     
-    style User fill:#2F80ED,stroke:#fff,stroke-width:2px,color:#fff
+    style User fill:#F772CA,stroke:#fff,stroke-width:2px,color:#fff
     style Discord fill:#5865F2,stroke:#fff,stroke-width:2px,color:#fff
     style Queue fill:#333,stroke:#fff,stroke-width:2px,color:#fff
 ```
 
 <br/>
 <div align="center">
-  <p><i>Engineered for performance and seamless audio delivery.</i></p>
+  <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Cute Cat" width="200" style="border-radius: 15px;" />
+  <p><i>Engineered for performance, built with love. 💖</i></p>
 </div>
